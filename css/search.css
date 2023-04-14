@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.w {
+  width: 95%;
+  margin: 0 auto;
+}
+body {
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 9.86666667vw 0;
+}
+.search .search_icon {
+  width: 2.66666667vw;
+  height: 5.06666667vw;
+}
+.search .search_search {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 77.86666667vw;
+  height: 10.93333333vw;
+  background-color: #fff;
+  border-radius: 5.33333333vw;
+}
+.search .search_search .search_search_icon {
+  line-height: 10.93333333vw;
+  padding-left: 3.46666667vw;
+  width: 4.53333333vw;
+  height: 4.53333333vw;
+}
+.search .search_search input {
+  flex: 1;
+  line-height: 10.93333333vw;
+  font-size: 4.26666667vw;
+  color: #9F9F9F;
+  border: 0;
+  outline: none;
+}
+.search span {
+  font-size: 4.26666667vw;
+  color: #9F9F9F;
+}
+.sousuo .sousuo_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sousuo .sousuo_title span {
+  font-size: 4.26666667vw;
+  color: #A2A2A2;
+}
+.sousuo .sousuo_icon {
+  width: 4.26666667vw;
+  height: 4.26666667vw;
+}
+.sousuo .sousuo_item {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 5.33333333vw 0;
+}
+.sousuo .sousuo_item li {
+  text-align: center;
+  color: #A2A2A2;
+  font-size: 3.46666667vw;
+  width: 17.33333333vw;
+  height: 8.53333333vw;
+  border-radius: 5.33333333vw;
+  line-height: 8.53333333vw;
+  background-color: #EEEEEE;
+  margin-bottom: 2.66666667vw;
+  margin-right: 1.33333333vw;
+}

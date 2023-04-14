@@ -1,0 +1,114 @@
+.w {
+  width: 90%;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+input {
+  border: 0;
+  outline: none;
+}
+.box {
+  display: flex;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 58.82352941vw;
+  height: 38.43137255vw;
+  margin-top: 3.52941176vw;
+}
+.box .left {
+  overflow: hidden;
+  width: 25.17647059vw;
+}
+.box .left .img {
+  width: 100%;
+}
+.box .right {
+  width: 33.64705882vw;
+  overflow: hidden;
+  background-color: #FFF7F4;
+}
+.right_conten {
+  overflow: hidden;
+  width: 21.56862745vw;
+  height: 25.09803922vw;
+  margin: 0 auto;
+  margin-top: 7.1372549vw;
+  background-color: #FFF;
+  border-radius: 1.56862745vw;
+}
+.right_conten_text1 {
+  margin: 1.56862745vw 0;
+  font-size: 14px;
+  color: #FD552F;
+}
+/* .right_conten_input {
+      height:20%;
+      background-color: pink;
+  }  */
+.right_conten_hao {
+  box-sizing: border-box;
+  font-size: 12px;
+  padding-left: 1.09803922vw;
+  width: 19.45098039vw;
+  height: 3.29411765vw;
+  background-color: #F6F6F6;
+}
+.right_conten_input {
+  display: flex;
+  margin-top: 1.96078431vw;
+}
+.right_conten_sjyzm {
+  font-size: 12px;
+  text-align: center;
+  line-height: 42px;
+  background-color: #F6F6F6;
+  color: #AFAFAF;
+  width: 10.74509804vw;
+  height: 3.29411765vw;
+}
+.right_conten_hqyzm {
+  margin-left: 11px;
+  box-sizing: border-box;
+  width: 7.84313725vw;
+  height: 3.29411765vw;
+  background-color: #FFF7E5;
+  color: #F87624;
+  border-radius: 8px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 3.29411765vw;
+  border: 2px solid #F87624;
+}
+.right_conten_new {
+  font-size: 10px;
+  color: #F77A22;
+  margin-top: 1.17647059vw;
+}
+.right_conten_dnegru {
+  width: 19.45098039vw;
+  height: 3.29411765vw;
+  background-color: #F87624;
+  border: 0;
+  border-radius: 10px;
+  color: #FFF;
+  font-size: 12px;
+  text-align: center;
+  line-height: 3.29411765vw;
+  margin: 0.54901961vw 0 1.56862745vw 0;
+}
+.right_conten_sq {
+  font-size: 10px;
+  text-align: center;
+}
+.right_conten_sqs {
+  color: #777777;
+}
+.right_conten_sqx {
+  color: #F77A22;
+}

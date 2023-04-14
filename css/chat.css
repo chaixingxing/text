@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.w {
+  width: 95%;
+  margin: 0 auto;
+}
+body {
+  background-color: #ECECEC;
+}
+.box {
+  background-color: #fff;
+}
+.chta {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  overflow: hidden;
+  height: 22.13333333vw;
+  background-color: #ECECEC;
+}
+.chta .chta_search {
+  margin-top: 8.8vw;
+  display: flex;
+  align-items: center;
+}
+.chta .chta_search .chta_search_l {
+  overflow: hidden;
+  width: 83.2vw;
+  height: 10.93333333vw;
+  border-radius: 5.33333333vw;
+  background-color: #fff;
+  margin-left: 3.2vw;
+  margin-right: 2.66666667vw;
+}
+.chta .chta_search .chta_search_l input {
+  width: 100%;
+  height: 100%;
+  padding-left: 5.33333333vw;
+  border: 0;
+  outline: none;
+}
+.chta .chta_search span {
+  font-size: 4.26666667vw;
+  color: #9F9F9F;
+}
+.liaotian {
+  margin-top: 25.33333333vw;
+}
+.liaotian .liaotian_title {
+  font-size: 4.26666667vw;
+  color: #727272;
+  line-height: 10.66666667vw;
+  height: 10.66666667vw;
+  margin-left: 2.66666667vw;
+  border-bottom: 1px solid #E1E1E1;
+}
+.active {
+  margin-top: 2.66666667vw;
+}
+.active .active_style {
+  margin-bottom: 4vw;
+  display: flex;
+  justify-content: space-between;
+}
+.active .active_style .active_l {
+  width: 5.86666667vw;
+  height: 5.86666667vw;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #F5F5F5;
+  color: #9F9F9F;
+  font-size: 3.73333333vw;
+  line-height: 5.86666667vw;
+  margin-top: 2.66666667vw;
+  margin-left: 2.66666667vw;
+}
+.active .active_style .active_z {
+  display: flex;
+  margin-left: 2.66666667vw;
+}
+.active .active_style .active_z .active_z_left {
+  width: 13.33333333vw;
+  height: 13.33333333vw;
+  background-color: pink;
+  margin-right: 3.73333333vw;
+  border-radius: 2.66666667vw;
+}
+.active .active_style .active_z .active_z_right {
+  flex: 1;
+  display: flex;
+  width: 80vw;
+  padding-bottom: 4vw;
+  border-bottom: 1px solid #E1E1E1;
+}
+.active .active_style .active_z .active_z_right .active_z_right_text {
+  width: 45.33333333vw;
+}
+.active .active_style .active_z .active_z_right .active_z_right_text .active_z_s {
+  font-size: 4.8vw;
+  font-weight: 700;
+  margin-bottom: 2.13333333vw;
+  text-overflow: ellipsis;
+  /* 溢出显示省略号 */
+  overflow: hidden;
+  /* 溢出隐藏 */
+  white-space: nowrap;
+  /* 强制不换行 */
+}
+.active .active_style .active_z .active_z_right .active_z_right_text .active_z_x {
+  color: #A2A2A2;
+  font-size: 4vw;
+  text-overflow: ellipsis;
+  /* 溢出显示省略号 */
+  overflow: hidden;
+  /* 溢出隐藏 */
+  white-space: nowrap;
+  /* 强制不换行 */
+}
+.active .active_style .active_z .active_z_right .active_r_time {
+  color: #A2A2A2;
+  font-size: 4vw;
+  margin-left: 2.66666667vw;
+}
+.jilu {
+  height: 13.33333333vw;
+  line-height: 13.33333333vw;
+  margin-left: 2.66666667vw;
+  color: #5B719B;
+  font-size: 4.26666667vw;
+  margin-bottom: 26.66666667vw;
+}

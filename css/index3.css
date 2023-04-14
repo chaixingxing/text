@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.icon {
+  overflow: hidden;
+}
+/* ____________ */
+.color_yel {
+  color: #FC672E;
+}
+.icon_d {
+  margin-top: 1.58730159vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15.87301587vw;
+  margin: 0 auto;
+}
+.icon_d .icon_d_icon {
+  width: 3.3015873vw;
+  height: 3.3015873vw;
+}
+.icon_d .icon_d_text {
+  display: flex;
+  align-items: center;
+  margin-top: 1.58730159vw;
+  font-size: 14px;
+  line-height: 0.88888889vw;
+  color: #32D421;
+}
+.icon_d_text > img {
+  width: 0.88888889vw;
+  height: 0.88888889vw;
+}
+/* _____ */
+.lianjei {
+  padding-left: 12.6984127vw;
+  font-size: 11px;
+  width: 38.0952381vw;
+  margin: 0 auto;
+}
+.lianjei a {
+  text-decoration: none;
+  color: #FC682E;
+}
+.lianjei .lianjei a {
+  text-decoration: none !important;
+}
+.lianjei_s {
+  display: flex;
+  align-items: center;
+}
+.lianjei .lianjei_s {
+  display: flex;
+  margin-top: 1.26984127vw;
+  margin-bottom: 0.50793651vw;
+}
+.lianjei .lianjei_s img {
+  width: 0.63492063vw;
+  height: 0.63492063vw;
+  margin: 0 0.12698413vw;
+}
+.lianjei .lianjei_s span {
+  font-size: 11px;
+}
+.lianjei .lianjei_x {
+  display: flex;
+}
+/* _____ */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  border-radius: 1.26984127vw;
+  margin: 0 auto;
+  margin-top: 2.03174603vw;
+  background-image: linear-gradient(#FFEDE6, #fff);
+  width: 25.07936508vw;
+  height: 16.82539683vw;
+}
+.content_title {
+  text-align: center;
+  position: absolute;
+  top: -0.63492063vw;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  color: #fff;
+  line-height: 1.58730159vw;
+  height: 1.58730159vw;
+  width: 7.93650794vw;
+  border-top-right-radius: 2.53968254vw;
+  border-bottom-left-radius: 2.53968254vw;
+  background-image: linear-gradient(to right, #FD6430, #F77B20);
+}
+.content img {
+  width: 6.34920635vw;
+  height: 13.65079365vw;
+}
+.content_icon_l {
+  padding-left: 3.80952381vw;
+}
+.content_icon_r {
+  padding-right: 3.80952381vw;
+}

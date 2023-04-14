@@ -1,0 +1,145 @@
+@fontSize: 3.75vw;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 95%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ECECEC;
+}
+
+.box {
+    background-color: #fff;
+}
+
+.chta {
+    overflow: hidden;
+    height: (83 / @fontSize);
+    background-color: #ECECEC;
+
+    .chta_search {
+        margin-top: (33 / @fontSize);
+        display: flex;
+        align-items: center;
+
+        .chta_search_l {
+            overflow: hidden;
+            width: (312 / @fontSize);
+            height: (41 / @fontSize);
+            border-radius: (20 / @fontSize);
+            background-color: #fff;
+            margin-left: (12 / @fontSize);
+            margin-right: (10 / @fontSize);
+
+            input {
+                width: 100%;
+                height: 100%;
+                padding-left: (20 / @fontSize);
+                border: 0;
+                outline: none;
+            }
+        }
+
+        span {
+            font-size: (16 / @fontSize);
+            color: #9F9F9F;
+        }
+    }
+
+}
+
+.jinqun {
+    height: (74 / @fontSize);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: (10 / @fontSize);
+    padding: 0 (10 / @fontSize);
+
+    p {
+        font-size: (18 / @fontSize);
+        font-weight: 700;
+        margin-left: (47 / @fontSize);
+
+    }
+}
+
+.chattingRecordS {
+    background-color: #fff;
+    .chattingRecordS_title {
+        height: (40 / @fontSize);
+        line-height: (40 / @fontSize);
+        color: #B6B6B6;
+        font-size: (16 / @fontSize);
+        margin-left: (10 / @fontSize);
+        border-bottom: 1px solid #E1E1E1;
+    }
+}
+.active {
+    margin-top: (10 /@fontSize);
+    
+    .active_style {
+        margin-bottom: (15 / @fontSize);
+        display: flex;
+        justify-content: space-between;
+        .active_l {
+            width: (22 / @fontSize);
+            height: (22 /@fontSize);
+            border-radius: 50%;
+            text-align: center;
+            background-color: #F5F5F5;
+            color: #9F9F9F;
+            font-size: (14 / @fontSize);
+            line-height: (22 /@fontSize);
+            margin-top: (10 / @fontSize);
+            margin-left: (10 / @fontSize);
+        }
+
+        .active_z {
+            display: flex;
+            margin-left: (10 / @fontSize);
+
+            .active_z_left {
+                width: (50 / @fontSize);
+                height: (50 / @fontSize);
+                background-color: pink;
+                margin-right: (14 / @fontSize);
+                border-radius: (10 / @fontSize);
+            }
+
+            .active_z_right {
+                flex: 1;
+                display: flex;
+                width: (300 / @fontSize);
+                // flex-direction: column;
+                // justify-content: space-around;
+                padding-bottom: (15 / @fontSize);
+                border-bottom: 1px solid #E1E1E1;
+                .active_z_s {
+                    font-size: (18 / @fontSize);
+                    font-weight: 700;
+                    margin-bottom: (8 / @fontSize);
+                }
+
+                .active_z_x {
+                    color: #A2A2A2;
+                    font-size: (15 / @fontSize);
+                }
+
+                .active_r_time {
+                    color: #A2A2A2;
+                    font-size: (15 / @fontSize);
+                    margin-left: (70 / @fontSize );
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,107 @@
+@fontSize: 3.75vw;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 95%;
+    margin: 0 auto;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: (37 / @fontSize) 0;
+
+    .search_icon {
+        width: (10 / @fontSize);
+        height: (19 / @fontSize);
+    }
+
+    .search_search {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        width: (292 / @fontSize);
+        height: (41 / @fontSize);
+        background-color: #fff;
+        border-radius: (20 / @fontSize);
+
+        .search_search_icon {
+            line-height: (41 / @fontSize);
+            padding-left: (13 / @fontSize);
+            width: (17 / @fontSize);
+            height: (17 /@fontSize);
+        }
+
+        input {
+            flex: 1;
+            // padding-left: (40 / @fontSize);
+            line-height: (41 / @fontSize);
+            font-size: (16 / @fontSize);
+            color: #9F9F9F;
+            border: 0;
+            outline: none;
+        }
+    }
+
+    span {
+
+        font-size: (16 / @fontSize);
+        color: #9F9F9F;
+    }
+}
+
+.sousuo {
+    .sousuo_title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            font-size: (16 / @fontSize);
+            color: #A2A2A2;
+        }
+    }
+
+    .sousuo_icon {
+        width: (16 / @fontSize);
+        height: (16/@fontSize);
+    }
+
+    .sousuo_item {
+        padding: 0;
+        display: flex;
+        // justify-content: space-around;
+        list-style: none;
+        flex-wrap: wrap;
+        margin: (20 / @fontSize) 0;
+
+        li {
+            text-align: center;
+            color: #A2A2A2;
+            font-size: (13 / @fontSize);
+            width: (65 / @fontSize);
+            height: (32 / @fontSize);
+            border-radius: (20 / @fontSize);
+            line-height: (32 / @fontSize);
+            background-color: #EEEEEE;
+            margin-bottom: (10 / @fontSize);
+            margin-right: (5 / @fontSize);
+        }
+       
+    }
+}

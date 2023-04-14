@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 15.87301587vw;
+  margin: 0 auto;
+}
+.content div {
+  font-size: 24px;
+  font-family: YouSheBiaoTiHei;
+  font-weight: 200;
+  color: #FC672E;
+}
+.sub {
+  display: block;
+  width: 12.06349206vw;
+  height: 2.85714286vw;
+  margin: 0 auto;
+  background-color: #FC652F;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 3.17460317vw;
+  border: 0;
+}

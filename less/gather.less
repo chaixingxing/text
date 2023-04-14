@@ -1,0 +1,214 @@
+@fontSize: 3.75vw;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.box {
+    margin-top: (73 / @fontSize);
+    overflow: hidden;
+    padding-bottom: (300 / @fontSize);
+}
+
+body {
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    height: (800 / @fontSize);
+
+}
+
+.gather_title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #F5F5F5;
+    z-index: 999;
+    overflow: hidden;
+    font-size: (19 / @fontSize);
+    font-weight: 700;
+    height: (73 / @fontSize);
+    border-bottom: 1px solid #D3D3D3;
+
+    .gather_title_content {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        height: (20 / @fontSize);
+        margin-top: (40 / @fontSize);
+
+        .gather_title_icon1 {
+            width: (11 / @fontSize);
+            height: (20 / @fontSize);
+        }
+
+        .gather_title_icon2 {
+            width: (19 / @fontSize);
+            height: (19 / @fontSize);
+        }
+    }
+}
+
+.active {
+    display: flex;
+    margin-top: (14 / @fontSize);
+
+    .active_icon {
+        width: (42 / @fontSize);
+        height: (42 / @fontSize);
+        background-color: pink;
+        border-radius: 10px;
+        margin-right: (12 / @fontSize);
+    }
+
+    .active_content {
+        position: relative;
+
+        .active_content_name {
+            font-size: (15 / @fontSize);
+            color: #A2A2A2;
+            margin-bottom: (3 / @fontSize);
+        }
+
+        .active_content_text {
+            position: relative;
+            box-sizing: border-box;
+            font-size: (16/@fontSize);
+            width: (258 / @fontSize);
+            background-color: #fff;
+            border-radius: 10px;
+            padding: (14 / @fontSize);
+            font-family: Source Han Sans CN;
+            font-weight: 400;
+            color: #0C0C0C;
+            line-height: 24px;
+
+            .active_content_sj {
+                position: absolute;
+                top: (15 / @fontSize);
+                left: -(5 / @fontSize);
+                width: (10 / @fontSize);
+                height: (10 / @fontSize);
+                background: #fff;
+                transform: rotate(45deg);
+            }
+        }
+    }
+}
+
+.time {
+    text-align: center;
+    font-size: (15 / @fontSize);
+    color: #A2A2A2;
+    margin: (15 / @fontSize) 0;
+}
+
+.active2_content_text {
+    overflow: hidden;
+    width: (125 / @fontSize);
+    height: (168 / @fontSize);
+    background-color: pink;
+    border-radius: 10px;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.fool {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: (60 / @fontSize);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .fool_conteny_r {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .fool_conteny_l {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+        width: (15 / @fontSize);
+        height: (15 / @fontSize);
+    }
+
+    span {
+        margin-left: (9/@fontSize);
+    }
+}
+
+.fuzhi {
+    position: relative;
+    position: absolute;
+    top: (20 / @fontSize);
+    right: (9 / @fontSize);
+    z-index: 9;
+    width: (170 / @fontSize);
+    height: (68 / @fontSize);
+    // background-image: url(../img/fuzhizhuanfa.png) ;
+    // background-repeat: no-repeat;
+    // background-size:100% ;
+    background-color: #4C4C4C;
+    display: flex;
+    align-items: center;
+    // visibility:hidden;
+    justify-content: space-around;
+
+    .fuzhi_shang {
+        position: absolute;
+        top: (-5 / @fontSize);
+        left: (80 / @fontSize);
+        width: (10 / @fontSize);
+        height: (10 / @fontSize);
+        background: #4C4C4C;
+        transform: rotate(135deg);
+    }
+
+    .fuzhi_xia {
+        position: absolute;
+        bottom: (-5 / @fontSize);
+        left: (80 / @fontSize);
+        width: (10 / @fontSize);
+        height: (10 / @fontSize);
+        background: #4C4C4C;
+        transform: rotate(135deg);
+    }
+
+    .zhuanfa {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            width: (17 / @fontSize);
+            height: (17 / @fontSize);
+        }
+
+        span {
+            font-size: (12 /@fontSize);
+            color: #fff;
+            margin-top: (5 / @fontSize);
+        }
+    }
+
+}

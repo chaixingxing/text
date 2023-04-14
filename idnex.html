@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jQuery.min.js"></script>
+</head>
+
+<body>
+    <div class="heard">
+        <div class="heard_left">
+            定向库
+        </div>
+        <div class="heard_right">
+            <span class="heard_right_t">退出</span>
+            <span>登入</span>
+        </div>
+    </div>
+    <div class="title">
+        <div class="title_t">欢迎使用定向库高佣CMS社群导购系统</div>
+        <div class="title_b">三步即可拥有专业的导购商城</div>
+    </div>
+    <div class="icon">
+        <img src="./img/组 2@4x.png" alt="">
+    </div>
+    <div class="content">
+        <div>联盟</div>                                                 
+        <img src="./img/形状 5@3x.png" alt="">
+        <img src="./img/微信图片_20230410104501@2x.png" alt="">
+    </div>
+    <button type="button" class="sub">
+        开始授权
+    </button>
+</body>
+<script>
+    $(".sub").click(function () {
+        parent.location.href='https://oauth.taobao.com/authorize?response_type=token&client_id=33923804&view=web&redirect_uri=';
+    });
+</script>
+
+</html>
